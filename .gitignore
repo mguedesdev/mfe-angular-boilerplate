@@ -1,0 +1,40 @@
+# Arquivos e pastas de dependências
+node_modules/
+dist/
+build/
+coverage/
+
+# Configurações e arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.vscode/*
+*.log
+*.tmp
+
+# Arquivos de build específicos de Vite e Angular
+*.ng_build/
+*.angular/
+
+# Pastas de build do Vite
+shell-app/dist/
+mfe-card/dist/
+
+# Ignore o package-lock e yarn.lock (opcional)
+package-lock.json
+yarn.lock
+
+# Configurações de ambiente (mantenha seguro)
+.env
+.env.local
+.env.*.local
+
+# Ignore o Docker (caso utilize)
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Arquivos temporários do ESLint e Prettier
+*.eslintcache
+.prettiercache

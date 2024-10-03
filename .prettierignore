@@ -1,0 +1,5 @@
+# Ignorar node_modules e arquivos de build
+node_modules/
+dist/
+build/
+coverage/
